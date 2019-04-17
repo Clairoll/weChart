@@ -1,0 +1,19 @@
+.container{
+  width: 600rpx;
+  height: 80rpx;
+  background-color: #f7f7f7f7;
+  border-radius: 2px;
+  display: inline-flex;
+  flex-direction: row;
+  /* 让布局左右靠边，中间居中 */
+  justify-content: space-between;
+  /* 让盒子中的元素上下居中 */
+  align-items: center;
+}
+.icon {
+  height: 80rpx;
+  width: 80rpx;
+}
+.title {
+  font-size: 28rpx;
+}

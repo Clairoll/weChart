@@ -1,0 +1,40 @@
+.container{
+  display:inline-flex;
+  flex-direction: row;
+  height: 60rpx;
+
+}
+.epsoide-num{
+   display: flex;
+   flex-direction: row;
+   align-items: baseline; /*让文字底部对齐*/
+}
+.plain {
+  font-size: 32rpx;
+}
+.index{
+  font-size: 60rpx;
+  line-height: 60rpx;
+  font-weight: 800;
+  margin-right: 14rpx;
+}
+.line {
+  height: 44rpx;
+  margin-right: 14rpx;
+  margin-bottom: 2rpx;
+  border-left: 1px solid black;
+}
+.epsoide-data{
+  display: flex;
+  flex-direction: column;
+  height:60rpx;
+  margin-top:5rpx;
+}
+.month {
+  font-size: 24rpx;
+  line-height: 24rpx;
+  margin-right: 2rpx;
+}
+.year {
+  font-size: 20rpx;
+}
